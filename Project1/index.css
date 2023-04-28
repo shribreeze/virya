@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+#navbar {
+    background-color: #009289;
+}
+
+/*.navbar-brand {
+    color: white;
+}*/
+
+.logo {
+    color: antiquewhite;
+    font-family: 'comfortaa', cursive;
+}
+
+.logoI {
+    color: yellow;
+}
+#signButton {
+    margin-left: 1rem;
+}
+
+.headline {
+    color: black;
+    font-size: 50px;
+}
+
+#headline {
+    color: #009289;
+    font-size: 60px;
+}
+
+.abc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-a {
+    padding-top: 3px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 37%;
+    box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
+    background-color: #ffd5d5;
+}
+.card-b {
+    padding-top: 3px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 37%;
+    box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
+    background-color: #fbd5ff;
+}
+.card-c {
+    padding-top: 3px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 37%;
+    box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
+    background-color: #d5f7ff;
+}
+.card-d {
+    padding-top: 3px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 37%;
+    box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
+    background-color: #d9ffd5;
+}
+
+.card {
+    padding-top: 3px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 37%;
+    box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
+}
+#cardHover:hover {
+    box-shadow: 0px 12px 24px 0px rgba(0,0,0,0.5);
+    transition: .3s;
+}
+
+
+.cardlink {
+    text-decoration: none;
+}
+
+.content {
+    align-items: center;
+}
+
+.jeeCardText {
+    color: black;
+}
+.jeeText {
+    color: red;
+}
+.exploreJeeText {
+    color: red;
+    font-size: 25px;
+}
+
+.neetCardText {
+    color: black;
+}
+.neetText {
+    color: purple;
+}
+.exploreNeetText {
+    color: purple;
+    font-size: 25px;
+}
+
+.ntseCardText {
+    color: black;
+}
+.ntseText {
+    color: #008cff;
+}
+.exploreNtseText {
+    color: #008cff;
+    font-size: 25px;
+}
+
+.aptCardText {
+    color: black;
+}
+.aptText {
+    color: green;
+}
+.exploreAptText {
+    color: green;
+    font-size: 25px;
+}
+
+.deviceText {
+    color: black;
+    font-size: 50px;
+}
+.desktopText {
+    color: #009289;
+}
+
+
+#innerCollege {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+#innerCollege1 {
+    background-color: #fbfbb9;
+    text-decoration: none;
+}
+
+
+#innerCollege1:hover {
+    background-color: #fcfc87;
+    box-shadow: 0px 12px 24px 0px rgba(0,0,0,0.5);
+    transition: .3s;
+}
+
+
+.midPage {
+    background-image: url(/photos/kids.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right;
+}
+
+#kidCard {
+    font-size: 60px;
+    color: black;
+}
+.kidText {
+    color: #009289;
+}
+.w3-container {
+    padding-top: 3px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 40%;
+    text-align: left;
+    text-decoration: none;
+}
+
+#kidCardHover {
+    background-color: white;
+}
+#kidCardHover:hover {
+    box-shadow: 0px 12px 24px 0px rgba(0,0,0,0.5);
+    transition: .4s;
+}
+
+
+.hindiKid {
+    background-color: #ffd5d5;
+    color: black;
+}
+.hindiKid:hover {
+    background-color: #ff9696;
+}
+
+.englishBook{
+    background-color: #d5f7ff;
+    color: black;
+}
+.englishBook:hover {
+    background-color: #96f5ff;
+}
+
+.mathsBoard {
+    background-color: #d9ffd5;
+    color: black;
+}
+.mathsBoard:hover {
+    background-color: #aeff96;
+}
+
+.drawingKid {
+    background-color: #ffffce;
+    color: black;
+}
+.drawingKid:hover {
+    background-color: #ffff96;
+}
+
+.testinomial {
+    color: black;
+}
+#signButton:hover {
+    background-color: red;
+}
+
+#footer {
+    position: relative;
+}
