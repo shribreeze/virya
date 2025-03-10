@@ -46,6 +46,7 @@
     padding-top: 3px;
     margin-right: 1rem;
     margin-left: 1rem;
+    border-radius: 8px;
     width: 37%;
     box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
     background-color: #ffd5d5;
@@ -54,6 +55,7 @@
     padding-top: 3px;
     margin-right: 1rem;
     margin-left: 1rem;
+    border-radius: 8px;
     width: 37%;
     box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
     background-color: #fbd5ff;
@@ -62,6 +64,7 @@
     padding-top: 3px;
     margin-right: 1rem;
     margin-left: 1rem;
+    border-radius: 8px;
     width: 37%;
     box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
     background-color: #d5f7ff;
@@ -70,6 +73,7 @@
     padding-top: 3px;
     margin-right: 1rem;
     margin-left: 1rem;
+    border-radius: 8px;
     width: 37%;
     box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
     background-color: #d9ffd5;
@@ -170,7 +174,7 @@
 
 
 .midPage {
-    background-image: url(/photos/kids.png);
+    background-image: url(./photos/kids.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: right;
